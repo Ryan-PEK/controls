@@ -5,11 +5,11 @@
 .controls {
     display: block;
     position: fixed;
-    width: 640px;
-    height: 640px;
+    width: 320px;
+    height: 320px;
     z-index: 0;
-    top: 100px;
-    left: 100px;
+    top: 40px;
+    left: 40px;
 }
 
 .controls div {
@@ -17,7 +17,7 @@
     opacity: 0.05;
     width: 0;
     height: 0;
-    border: 68px solid transparent;
+    border: 34px solid transparent;
 
     -moz-transform: scale(.9999);
 
@@ -38,9 +38,9 @@
 }
 
     .controls div.navigate-left {
-        top: 256px;
+        top: 128px;
 
-        border-right-width: 132px;
+        border-right-width: 66px;
         border-right-color: #eee;
     }
         .controls div.navigate-left.fragmented {
@@ -48,10 +48,10 @@
         }
 
     .controls div.navigate-right {
-        left: 444px;
-        top: 256px;
+        left: 222px;
+        top: 128px;
 
-        border-left-width: 132px;
+        border-left-width: 66px;
         border-left-color: #eee;
     }
         .controls div.navigate-right.fragmented {
@@ -59,9 +59,9 @@
         }
 
     .controls div.navigate-up {
-        left: 256px;
+        left: 128px;
 
-        border-bottom-width: 132px;
+        border-bottom-width: 66px;
         border-bottom-color: #eee;
     }
         .controls div.navigate-up.fragmented {
@@ -69,10 +69,10 @@
         }
 
     .controls div.navigate-down {
-        left: 256px;
-        top: 444px;
+        left: 128px;
+        top: 222px;
 
-        border-top-width: 132px;
+        border-top-width: 66px;
         border-top-color: #eee;
     }
         .controls div.navigate-down.fragmented {
